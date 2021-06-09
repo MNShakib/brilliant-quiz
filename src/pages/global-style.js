@@ -28,6 +28,8 @@ body{
     background: #F8F8F8;
     font-family: 'Inter', sans-serif;
     overflow-x: hidden;
+    font-size: 15px;
+    line-height: 1.867em;
 }
 
 `;

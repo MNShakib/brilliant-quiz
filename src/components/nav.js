@@ -7,7 +7,7 @@ const Nav = () => {
     <StyledNav>
       <Container>
         <img src={logo} alt="logo" />
-        <a href="#">START TRIAL</a>
+        <a href="https://brilliant.org/courses/logic-deduction/">START TRIAL</a>
       </Container>
     </StyledNav>
   );
@@ -34,7 +34,6 @@ const StyledNav = styled.nav`
     right: auto;
     position: relative;
     display: inline-block;
-    padding: 3px 16px;
     font-family: "Soleil", Arial, sans-serif;
     line-height: 1.6em;
     text-align: center;
@@ -43,6 +42,7 @@ const StyledNav = styled.nav`
     width: 150px;
     height: 33px;
     padding: 7px 0;
+    margin-right: 25px;
     border-color: #07a17b;
     border-radius: 6px;
     color: #07a17b;
@@ -60,7 +60,7 @@ const Container = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 16px;
+  padding: 0 30px;
 `;
 
 export default Nav;
