@@ -7,7 +7,9 @@ const Nav = () => {
     <StyledNav>
       <Container>
         <img src={logo} alt="logo" />
-        <a href="https://brilliant.org/courses/logic-deduction/">START TRIAL</a>
+        <a href="https://brilliant.org/practice/warmup-puzzles-6/?p=1">
+          START TRIAL
+        </a>
       </Container>
     </StyledNav>
   );
